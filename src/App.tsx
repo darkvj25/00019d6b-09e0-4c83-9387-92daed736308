@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function App() {
+function App(): React.ReactElement {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <div className="container mx-auto p-4">
@@ -10,7 +10,7 @@ function App() {
         </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
